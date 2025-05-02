@@ -1,0 +1,103 @@
+body {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.container {
+  padding: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.section {
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.setting-item {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+input[type="number"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+}
+
+#monitoring-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.monitoring-item {
+  padding: 12px;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #eee;
+}
+
+.monitoring-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
+.monitoring-item p {
+  margin: 4px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
